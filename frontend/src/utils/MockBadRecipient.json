@@ -1,0 +1,113 @@
+{
+  "contractName": "MockBadRecipient",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/MockBadRecipient.sol\":\"MockBadRecipient\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/MockBadRecipient.sol\":{\"keccak256\":\"0x0f48ac996fc7b2894d661c30ed7340ea441c3952646e5b50cdcdc1da54ac3161\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://480030173b98c5548f7b9d78034eae3a4bce01ce5b972557591595a69447d031\",\"dweb:/ipfs/QmY9G6iNqjB2FaHScZjFDKwnG6yHqHDSTRTVcaRf1d9pYK\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212205ef23b9843be00361f138c4a587f6bb6442a48897c23dcde44d17f6095964b8164736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212205ef23b9843be00361f138c4a587f6bb6442a48897c23dcde44d17f6095964b8164736f6c63430008000033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "56:28:2:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "56:28:2:-:0;;;;;",
+  "source": "//SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract MockBadRecipient {}\n",
+  "sourcePath": "/Users/jasonha/Desktop/demos/smart_contracts/ERC721_tokens/smart_contract/contracts/MockBadRecipient.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/MockBadRecipient.sol",
+    "exportedSymbols": {
+      "MockBadRecipient": [
+        546
+      ]
+    },
+    "id": 547,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 545,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "31:23:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 546,
+        "linearizedBaseContracts": [
+          546
+        ],
+        "name": "MockBadRecipient",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 547,
+        "src": "56:28:2"
+      }
+    ],
+    "src": "31:54:2"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/MockBadRecipient.sol",
+    "exportedSymbols": {
+      "MockBadRecipient": [
+        546
+      ]
+    },
+    "id": 547,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 545,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "31:23:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 546,
+        "linearizedBaseContracts": [
+          546
+        ],
+        "name": "MockBadRecipient",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 547,
+        "src": "56:28:2"
+      }
+    ],
+    "src": "31:54:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.5",
+  "updatedAt": "2022-03-15T20:04:37.298Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
